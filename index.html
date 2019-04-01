@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Psychic Game</title>
+</head>
+
+<body>
+    <div class="jumbotron">
+        <h1 class="text-center">The Psychic Game</h1>
+        <h2 class="text-center">Guess what letter I am thinking of</h2>
+    </div>
+
+    <div class="container responsive">
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card mb-2">
+                    <h3 class="card-header text-center">Wins</h3>
+                    <div class="card-body text-center">
+                        <h1 id="number-wins">0</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card mb-2">
+                    <h3 class="card-header text-center">Losses</h3>
+                    <div class="card-body text-center">
+                        <h1 id="number-losses">0</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card mb-2">
+                    <h3 class="card-header text-center">Guesses Left</h3>
+                    <div class="card-body text-center">
+                        <h1 id="guesses-left">9</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card mb-2">
+                    <h3 class="card-header text-center">Your Guesses so far</h3>
+                    <div class="card-body text-center">
+                        <h1 id="guess-list"></h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+
+
+
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+
+</html>
